@@ -8,10 +8,6 @@ Step 1: Open the PCAP Files in Wireshark
 
 First, I downloaded the pcap\_files.zip file and unzipped it using the command:
 
-bash
-
-Copy code
-
 unzip pcap\_files.zip
 
 After extracting the files, I opened them individually in Wireshark. Since the goal was to analyze email traffic, the primary protocol I focused on was SMTP (Simple Mail Transfer Protocol).
@@ -19,10 +15,6 @@ After extracting the files, I opened them individually in Wireshark. Since the g
 Step 2: Apply Filters to Narrow Down SMTP Traffic
 
 To identify emails sent over the network, I used the SMTP filter in Wireshark. Applying the filter helped me isolate email traffic from all the other captured packets. The filter I used was:
-
-bash
-
-Copy code
 
 smtp
 
@@ -36,10 +28,6 @@ Step 4: Read Email Contents with SMTP Filters
 
 To get a clearer view of the email contents, I further refined my filter to focus on the End of Message (EOM) command used in SMTP communications. This command signifies the end of an email's body. The filter I applied was:
 
-bash
-
-Copy code
-
 smtp.eom
 
 Using this filter allowed me to fully read the emails. I found that the emails from the suspicious IP address were phishing attempts. They contained threatening messages claiming that the attacker had access to the recipient's passwords and personal data, demanding payment to prevent the leak.
@@ -47,10 +35,6 @@ Using this filter allowed me to fully read the emails. I found that the emails f
 Step 5: Export the Phishing Emails as .eml Files
 
 Once I identified the phishing emails, I exported the captured packets as .eml files to simulate how they would appear to the victim. This step provided a better understanding of the formatting and presentation of these phishing emails. To export the emails, I went to:
-
-bash
-
-Copy code
 
 File -> Export Objects -> IMF...
 
