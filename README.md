@@ -20,6 +20,7 @@ Step 2: Apply Filters to Narrow Down SMTP Traffic
 To identify emails sent over the network, I used the SMTP filter in Wireshark. Applying the filter helped me isolate email traffic from all the other captured packets. The filter I used was:
 
 smtp
+
 ![Screenshot from 2024-09-26 22-08-01](https://github.com/user-attachments/assets/6d9a8129-cb92-4a7f-8bd6-da58cda75fe3)
 
 This filter displayed only SMTP-related traffic, including email transmissions.
@@ -49,6 +50,7 @@ File -> Export Objects -> IMF...
 I then saved the specific phishing emails, which could later be opened using email clients like Outlook or Mail.
 
 Results
+
 ![Screenshot from 2024-09-26 22-09-58](https://github.com/user-attachments/assets/e6f8fbff-568c-4224-a8e8-ce99b27ee380)
 
 Malicious Actor's IP Address: 10.6.1.104 - Identified from File C as the one sending phishing emails to multiple addresses.
