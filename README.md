@@ -30,6 +30,8 @@ To get a clearer view of the email contents, I further refined my filter to focu
 
 smtp.eom
 
+![Screenshot from 2024-09-26 22-04-38](https://github.com/user-attachments/assets/e8e84cf5-5b8d-4002-ae03-fafc1ac0a405)
+
 Using this filter allowed me to fully read the emails. I found that the emails from the suspicious IP address were phishing attempts. They contained threatening messages claiming that the attacker had access to the recipient's passwords and personal data, demanding payment to prevent the leak.
 
 Step 5: Export the Phishing Emails as .eml Files
