@@ -34,7 +34,8 @@ To get a clearer view of the email contents, I further refined my filter to focu
 
 smtp.eom
 
-![Screenshot from 2024-09-26 22-14-22](https://github.com/user-attachments/assets/b0cc0e97-4a05-404c-a43b-7186b17bde7f)
+![Screenshot from 2024-09-26 22-20-27](https://github.com/user-attachments/assets/67b9b987-0f4d-474b-bc82-9bffb2f0e88b)
+
 
 
 Using this filter allowed me to fully read the emails. I found that the emails from the suspicious IP address were phishing attempts. They contained threatening messages claiming that the attacker had access to the recipient's passwords and personal data, demanding payment to prevent the leak.
