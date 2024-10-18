@@ -1,10 +1,10 @@
-Overview:
+#Overview:
 
 This project involved identifying phishing emails by analyzing packet capture (PCAP) files using Wireshark, filtering the SMTP traffic to identify malicious emails sent by a bad actor. I was able to extract email content, identify phishing attempts, and pinpoint the malicious actor's IP address. Here's a step-by-step guide on how I completed the project.
 
 Step-by-Step Guide
 
-Step 1: Open the PCAP Files in Wireshark
+##Step 1: Open the PCAP Files in Wireshark
 
 First, I downloaded the pcap\_files.zip file and unzipped it using the command:
 
